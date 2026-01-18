@@ -24,24 +24,7 @@ Dev Tools: VSCode + GitHub + Postman + MongoDB Compass
 REACT_APP_API_URL=http://localhost:5000/api/v1
 
 
-## 📂 **Project Structure**
-todolist-mern/
-├── backend/
-│ ├── src/
-│ │ ├── controllers/ # API logic
-│ │ ├── models/ # Mongoose schemas
-│ │ ├── routes/ # Express routes
-│ │ └── middleware/ # Auth & validation
-│ ├── app.js
-│ └── package.json
-├── frontend/
-│ ├── src/
-│ │ ├── components/ # Reusable UI
-│ │ ├── pages/ # Page components
-│ │ ├── context/ # React Context
-│ │ └── services/ # API calls
-│ └── package.json
-└── README.md
+`n## 📂 **Project Structure`n````ntodolist-mern/`n├── backend/`n│   ├── src/`n│   │   ├── controllers/     # API logic`n│   │   ├── models/          # Mongoose schemas`n│   │   ├── routes/          # Express routes`n│   │   └── middleware/      # Auth & validation`n│   ├── app.js`n│   └── package.json`n├── frontend/`n│   ├── src/`n│   │   ├── components/      # Reusable UI`n│   │   ├── pages/           # Page components`n│   │   ├── context/         # React Context`n│   │   └── services/        # API calls`n│   └── package.json`n└── README.md`n```
 
 ## 🛠️ **Development Workflow**
 1. **Backend First**: Design MongoDB schemas → Build APIs → Test with Postman
