@@ -19,30 +19,43 @@ Database: MongoDB Atlas
 Deployment: Netlify (Frontend) + Railway (Backend)
 Dev Tools: VSCode + GitHub + Postman + MongoDB Compass
 
-text
 
 ## 🔗 **Frontend .env**
 REACT_APP_API_URL=http://localhost:5000/api/v1
 
-text
 
 ## 📂 **Project Structure**
 todolist-mern/
 ├── backend/
+
 │ ├── src/
+
 │ │ ├── controllers/ # API logic
+
 │ │ ├── models/ # Mongoose schemas
+
 │ │ ├── routes/ # Express routes
+
 │ │ └── middleware/ # Auth & validation
+
 │ ├── app.js
+
 │ └── package.json
+
 ├── frontend/
+
 │ ├── src/
+
 │ │ ├── components/ # Reusable UI
+
 │ │ ├── pages/ # Page components
+
 │ │ ├── context/ # React Context
+
 │ │ └── services/ # API calls
+
 │ └── package.json
+
 └── README.md
 
 ## 🛠️ **Development Workflow**
